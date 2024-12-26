@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>                                                                                                                             
+</head>
+<style>
+    .nav-item
+    {
+        margin: 20px;
+        color: rgb(0, 0, 0);
+    }
+    .navbar
+    {
+        background-color: rgb(168, 118, 84);
+    }
+    #banner
+    {
+        height: 300px;
+        background-color: rgb(121, 100, 66);
+    }
+label
+{
+    color: rgb(243, 102, 2);
+}
+input
+{
+    border: 2px solid darkblue;
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-sm  navbar-dark">
+      <div class="container-fluid">
+        <button type="button" class="navbar-toggler" data-bs-toggle="collaps" data-bs-target="#navbar"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbar">
+             <ul class="navbar-nav">
+                <li class="nav-item ">Home</li>
+                <li class="nav-item ">About us </li>
+                <li class="nav-item ">Category</li>
+             </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid text-center" id="banner">
+        <h1 class=" py-5 text-white">WELCOME</h1>
+        <button class="btn btn-outline-light ">EXPLORE</button>
+    </div>
+    <div class="container"> 
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="3img.jpg" >
+                    <div class="card-body">
+                        <div class="card-text">
+                            <h1><i>COFFEE</i></h1>
+                            <p>Coffee is a beverage brewed from roasted, ground coffee beans. Darkly colored, bitter, and slightly acidic</p>
+                            <button class="btn btn-outline-dark"data-bs-toggle="modal"data-bs-target="#modal1">Veiw more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="2img.jpg" >
+                    <div class="card-body">
+                        <div class="card-text">
+                            <h1><i>COFFEE</i></h1>
+                            <p>Coffee is a beverage brewed from roasted, ground coffee beans. Darkly colored, bitter, and slightly acidic</p>
+                            <button class="btn btn-outline-dark"data-bs-toggle="modal"data-bs-target="#modal2">Veiw more</button>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img1.avif" >
+                    <div class="card-body">
+                        <div class="card-text">
+                            <h1><i>COFFEE</i></h1>
+                            <p>Coffee is a beverage brewed from roasted, ground coffee beans. Darkly colored, bitter, and slightly acidic</p>
+                            <button class="btn btn-outline-dark " data-bs-toggle="modal"data-bs-target="#modal3">Veiw more</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>    </div>
+
+
+<div class="container mt-5" id="1">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <ul class="list-inline">
+                <li class="list-group-item list-group-item-danger">Caffein</li>
+                <li  class="list-group-item list-group-item-warning">Tannin</li>
+                <li  class="list-group-item list-group-item-info">Fixed oil</li>
+                <li  class="list-group-item list-group-item-warning">Carbohydrates</li>
+                <li  class="list-group-item list-group-item-danger">Protein</li>
+            </ul>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-12"><img src="image1.jfif" class="rounded-circle"></div>
+    </div>
+</div> -->
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <form action="">
+                <div class="form-group">
+                  <label>Username</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control">
+                  </div>
+                  <button type="button" class="btn btn-dark mt-3 mx-auto d-block">Submit</button>
+            </form>
+        </div>
+        <div class="col-2"></div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal" id="modal1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h1>Americano</h1><button type="button" class="btn-close"data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-6">Caffè americano, also known as americano or American, is a type of coffee drink prepared by diluting an espresso shot with hot water at a 1:3 to 1:4 ratio, resulting in a drink that retains the complex flavors of espresso, but in a lighter way.</div>
+                <div class="col-6"><img src="3img.jpg" class="img-fluid"></div>
+            </div>
+        </div>
+        <div class="modal-footer"><button type="button" class="btn btn-dark">ADD TO CARD</button><button type="button" class="btn btn-dark" data-bs-dismiss="modal">CLOSE</button></div>
+    
+</div>
+</div>
+</div>
+<div class="modal" id="modal2">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h1>Cortado</h1><button type="button" class="btn-close"data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-6">A cortado is a Spanish beverage consisting of espresso mixed with a roughly equal amount of warm milk to reduce the acidity, although the exact ratios have considerable regional variation. The milk in a cortado is steamed, but not frothy and "texturized" as in many Italian coffee drinks.</div>
+                <div class="col-6"><img src="americano.jpeg" class="img-fluid"></div>
+            </div>
+        </div>
+        <div class="modal-footer"><button type="button" class="btn btn-dark">ADD TO CARD</button><button type="button" class="btn btn-dark" data-bs-dismiss="modal">CLOSE</button></div>
+    
+</div>
+</div>
+</div>
+<div class="modal" id="modal3">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h1>Caffè macchiato</h1><button type="button" class="btn-close"data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-6">Caffè macchiato, sometimes called espresso macchiato and often shortened to just macchiato in English, is an espresso coffee drink with a small amount of milk, usually foamed. </div>
+                <div class="col-6"><img src="2img.jpg" class="img-fluid"></div>
+            </div>
+        </div>
+        <div class="modal-footer"><button type="button" class="btn btn-dark">ADD TO CARD</button><button type="button" class="btn btn-dark" data-bs-dismiss="modal">CLOSE</button></div>
+    
+</div>
+</div>
+</div>
+</body>
+</html>
